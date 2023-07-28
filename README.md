@@ -24,7 +24,17 @@ O objetivo principal do projeto é tornar a lista de vídeos na página inicial 
 
 * Para melhorar a experiência do usuário, foi adicionado o tratamento de erros com 'try catch', exibindo mensagens adequadas em caso de falhas durante a execução do código. Como pode ser visto no screenshot abaixo, ao ser modificar a url do fetch API, por exemplo.
 
-**Observação:** Para que a API funcione corretamente, é essencial ter o projeto salvo no seu computador e utilizar o prompt de comando ou terminal seguindo estas etapas: primeiro, execute o comando *'npm init'* para iniciar o projeto, em seguida, utilize *'npm install json-server'* para instalar o pacote json-server e, por último, *'json-server --watch db.json'* para iniciar o servidor de simulação da API, ou apenas utilize *'npx json-server --watch db.json'*, após o primeiro comando, este comando permite executar pacotes sem a necessidade de instalá-los. O json-server é um pacote do npm que simula uma API RESTful utilizando um arquivo JSON como banco de dados. Certifique-se de seguir essas etapas para garantir o correto funcionamento da API.
+## Observação:
+Para que a API funcione corretamente, siga estas etapas no prompt de comando ou terminal do seu computador, com o projeto previamente salvo:
+1. Execute o comando **'npm init'** para iniciar o projeto.
+2. Em seguida, utilize **'npm install json-server'** para instalar o pacote json-server.
+3. Por último, inicie o servidor de simulação da API utilizando **'json-server --watch db.json'**.
+
+**OU**
+
+Se preferir, utilize **'npx json-server --watch db.json'** após ter executado o primeiro comando (**'npm init'**). O comando **'npx'** permite executar pacotes sem a necessidade de instalá-los previamente.
+
+O **'json-server'** é um pacote do npm que simula uma API RESTful utilizando um arquivo JSON como banco de dados. Certifique-se de seguir todas essas etapas para garantir o correto funcionamento da API.
   
 ## Screenshots
 
